@@ -7,6 +7,6 @@ First create your branch for the code so the main code remains isolated from bug
 
 to create a branch go to the repository and go to fork button on top right menu 
 
-<im src='readme-img/fork.png' height='200'>
+<img src='readme-img/fork.png' height='200'>
 
 </p>
