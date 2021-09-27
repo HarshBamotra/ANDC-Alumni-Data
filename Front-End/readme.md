@@ -30,6 +30,5 @@ and then `push` them
 </pre>
 
 > make your commits, please write appropriate `messages` while commiting, be concise and objective
-
 > this one is the most important, dont't push to the main branch, switch branches beforehand
 
