@@ -1,4 +1,5 @@
 import './App.css';
+import {Home} from './Components/Home';
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,7 +12,7 @@ function App() {
       <Router>
         <header className="App-header">People of ANDC</header>
         <Switch>
-          <Route path='/'></Route>
+          <Route path='/'> <Home /> </Route>
           <Route path='/about'></Route>
           <Route path='/form'></Route>
         </Switch>
