@@ -1,23 +1,28 @@
 import './App.css';
 import {Home} from './Components/Home';
+import { Form } from './Components/Form';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Switch,
-  Route
+  Route,
+  Link
 } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <header className="App-header">People of ANDC</header>
+      <BrowserRouter>
+        <Link to='/form'>People of ANDC</Link>
         <Switch>
-          <Route path='/'> <Home /> </Route>
-          <Route path='/about'></Route>
-          <Route path='/form'></Route>
+          
+          <Route path='/'>
+            <Home />
+          </Route>
+
+          <Route exact path='/about'></Route>
+          
+          <Route exact path='/form' component={Form} />
         </Switch>
-      </Router>
-    </div>
+      </BrowserRouter>
   );
 }
 
