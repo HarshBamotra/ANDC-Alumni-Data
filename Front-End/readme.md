@@ -57,4 +57,29 @@ just open your browser in your device say your mobile, and search
 ```
 > to get your ip address run ipconfig command in terminal
 
+## 5. working in react
 
+you're mostly going to work in src file, that's the source code,
+i'm not writing how to edit the source code now, will add that part in future
+
+## 6. build your project
+
+the files you work on are react source code, building your project will convert your source code into html, css and javascript code, inside the build folder
+
+to build the project write the command
+
+```
+npm build
+```
+
+> notice now there's a build file in your app folder
+
+## 7. running the build code
+
+in order to run the build just write the command
+
+```
+npx serve
+```
+
+in case this readme doesn't help do refer to this <a href='https://www.freecodecamp.org/news/how-to-build-a-react-project-with-create-react-app-in-10-steps/'>link</a>
