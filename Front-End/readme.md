@@ -19,16 +19,12 @@ to create a branch go to the repository and go to fork button on top right menu
 <pre>
 
 `clone` the project in your system, 
-
 make your changes, 
-
 give your contributions, 
-
 `commit` them, 
 > make your commits, please write appropriate `messages` while commiting, be concise and objective
-
 and then `push` them
-
+> this one is the most important, dont't push to the main branch, switch branches beforehand
 <img src='readme-images/fork.png' height='50'>
 
 </pre>
