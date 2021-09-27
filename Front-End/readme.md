@@ -1,34 +1,60 @@
 # React Workflow Cheatsheet
 
-## 1. create your branch
+```
+I'm assuming you've cloned the project and made your branch, 
+and you've installed node.js
+```
 
-<pre>
+## 1. First install the react-script
 
-First create your branch for the code so the main code remains isolated from bugs you may cause while contributing, 
-and once it seems to work fine we would merge your branchwith main. 
-to create a branch go to the repository and go to fork button on top right menu 
+open the terminal/cmd and write the following command
 
-<img src='readme-images/fork.png' height='50'>
+```
+npm install react-scripts
+```
 
-</pre>
+## 2. open the project
 
-> please name the branch with your name so its easy to track and manage
+open the directory(folder) in which your code is stored
 
-## 2. edit the code
+1. you can go to the folder in file explorer 
+2. right click or shift + right-click
+3. choose the option open in terminal/command prompt/powershell
 
-<pre>
+or you can just cd into that folder
 
-`clone` the project in your system, 
-make your changes, 
-give your contributions, 
-`commit` them,
- 
-and then `push` them
+## 3. open live server
 
-<img src='readme-images/fork.png' height='50'>
+you can edit the code but if you wish to see the changes as you make them
+run the code - 
 
-</pre>
+```
+npm start
+```
 
-> make your commits, please write appropriate `messages` while commiting, be concise and objective
-> this one is the most important, dont't push to the main branch, switch branches beforehand
+this will start a live server in your local network, which will open in your browser
+
+> note that the server will close when you close the terminal or terminate the process with ctrl+c in case of terminals and powershell
+
+in case it doesn't open, 
+go to your browser and search 
+
+```
+localhost:3000
+```
+
+> your local host address can be different, look it up in the terminal
+
+## 4. Responsive view
+
+if you want to view your site in a vertical screen like you mobile
+
+just open your browser in your device say your mobile, and search 
+
+
+```
+(your-ip-address):3000
+```
+> to get your ip address run ipconfig command in terminal
+
 
