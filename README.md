@@ -43,7 +43,7 @@ First create your branch for the code so the main code remains isolated from bug
 and once it seems to work fine we would merge your branchwith main. 
 to create a branch go to the repository and go to fork button on top right menu 
 
-<img src='readme-images/fork.png' height='50'>
+<img src='readme-img/fork.png' height='50'>
 
 </pre>
 
@@ -60,7 +60,7 @@ give your contributions,
  
 and then `push` them
 
-<img src='readme-images/fork.png' height='50'>
+<img src='readme-img/fork.png' height='50'>
 
 </pre>
 
