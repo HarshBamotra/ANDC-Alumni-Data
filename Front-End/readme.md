@@ -27,8 +27,9 @@ and then `push` them
 
 <img src='readme-images/fork.png' height='50'>
 
+</pre>
+
 > make your commits, please write appropriate `messages` while commiting, be concise and objective
 
 > this one is the most important, dont't push to the main branch, switch branches beforehand
 
-</pre>
