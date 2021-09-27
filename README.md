@@ -64,5 +64,5 @@ and then `push` them
 
 </pre>
 
-> make your commits, please write appropriate `messages` while commiting, be concise and objective. Most importantly, while pushing dont't push to the main branch, switch to your branch, once you feel your code is free of errors and glitches and you've handeled all  borderline conditions, verify it with everyone else to merge
+> make your commits, please write appropriate `messages` while commiting, be concise and objective. Most importantly, while pushing don't push to the main branch, switch to your branch, once you feel your code is free of errors and glitches and you've handeled all  borderline conditions, verify it with everyone else to merge
 
