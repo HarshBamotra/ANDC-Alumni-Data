@@ -31,3 +31,8 @@
 - Integrating Django and React
 
 > Note : this roadmap is not chronological so you don't need to follow this order, moreover this order can change or we can do one or two things simultaneously
+
+
+# `Cheatsheet`
+
+
