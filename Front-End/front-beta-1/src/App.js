@@ -8,15 +8,28 @@ import {
 } from "react-router-dom";
 import {Form} from './Components/Form';
 import {Home} from './Components/Home';
+import Typography from '@material-ui/core/Typography';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import '@coreui/coreui/dist/css/coreui.css';
 
 function App() {
   return (
     <Router>
-      <h1>People of ANDC</h1>
+
+
+
+      <Typography variant="h2" component="div" gutterBottom align='center' >
+        People of ANDC
+      </Typography>
+
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/Form' component={Form} />
       </Switch>
+
     </Router>
   );
 }
