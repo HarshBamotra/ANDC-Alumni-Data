@@ -11,7 +11,7 @@ import {
 function App() {
   return (
       <BrowserRouter>
-        <Link to='/form'>People of ANDC</Link>
+        <h1>People of ANDC</h1> 
         <Switch>
           
           <Route path='/'>
