@@ -24,9 +24,9 @@
 	- if yes : specialisation() && institute() && yearofcompletion()
 	- if no continue
 
-> Job? (y/n)
+> Job/Business? (y/n)
 
-	- if yes : Job Profile() && organisation() (experience())
+	- if yes : Type(Job/Business) && organisation() && experience() && profile
 	- if no : continue
 
 [ADD BUTTON]
