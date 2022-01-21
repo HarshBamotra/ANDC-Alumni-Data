@@ -17,6 +17,7 @@ The database `Alumni_Data` contains three tables.
 - Higher_Education (Y/N)
 - Job (Y/N)
 - Contact (Twitter , Linkedin)
+- Exams_Qualified (Coma seprated values)
                                                      
 ### Higher_Edu
 - Email
@@ -35,4 +36,5 @@ The database `Alumni_Data` contains three tables.
 
 
 
- ![Alumni Database](https://user-images.githubusercontent.com/77924168/149633736-4f69477e-f1fc-4d7b-9eec-0175b6636ae9.png)
+![Alumni_Data](https://user-images.githubusercontent.com/77924168/150524693-1956d30b-9930-4cec-b555-d05c9dc3122c.png)
+
